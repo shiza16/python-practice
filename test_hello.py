@@ -1,7 +1,7 @@
 from hello import toyou, add, subtract
 
 
-gitdef setup_function(function):
+def setup_function(function):
     print(f" Running Setup: {function.__name__}")
     function.x = 10
 
